@@ -1,0 +1,49 @@
+﻿<UserControl x:Class="InterfaceMH.Views.Tab1Controler"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:InterfaceMH.Views"
+             xmlns:v="clr-namespace:InterfaceMH.ViewModels"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800" Background="White" BorderBrush="Black" BorderThickness="2">
+    <UserControl.DataContext>
+        <v:Tab1VM/>
+    </UserControl.DataContext>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="80" />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <ScrollViewer Grid.Row="4" Grid.Column="1" VerticalScrollBarVisibility="Disabled" HorizontalScrollBarVisibility="Auto">
+            <Grid Grid.Column="1" >
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+
+                <TextBlock VerticalAlignment="Center" Grid.Row="0" Name="cordemi" Text="{Binding cordes[0].frette}" Grid.Column="1"/>
+                <TextBlock VerticalAlignment="Center" Grid.Row="1" Name="cordeSi" Text="{Binding cordes[1].frette}" Grid.Column="1"/>
+                <TextBlock VerticalAlignment="Center" Grid.Row="2" Name="cordeSol" Text="{Binding cordes[2].frette}" Grid.Column="1"/>
+                <TextBlock VerticalAlignment="Center" Grid.Row="3" Name="cordeRe" Text="{Binding cordes[3].frette}" Grid.Column="1"/>
+                <TextBlock VerticalAlignment="Center" Grid.Row="4" Name="cordeLa" Text="{Binding cordes[4].frette}" Grid.Column="1"/>
+                <TextBlock VerticalAlignment="Center" Grid.Row="5" Name="cordeMi" Text="{Binding cordes[5].frette}" Grid.Column="1"/>
+            </Grid>
+        </ScrollViewer>
+        <Grid Grid.RowSpan="6">
+            <Grid.RowDefinitions>
+                <!--<RowDefinition/>-->
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <!--<TextBox Name="Bpm" Margin="2" Text="{Binding Bpm, UpdateSourceTrigger=PropertyChanged}"/>-->
+
+            <Button Name="Rec" Content="Record" Margin="4" Command="{Binding RecCommand}"/>
+            <Button Name="Stop" Content="Stop" Grid.Row="1" Margin="4" Command="{Binding StopCommand}"/>
+        </Grid>
+    </Grid>
+</UserControl>
