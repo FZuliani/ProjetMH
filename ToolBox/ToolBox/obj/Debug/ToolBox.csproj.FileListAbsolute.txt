@@ -1,0 +1,12 @@
+D:\Briareos\Source\ToolBox\ToolBox\bin\Debug\ToolBox.dll
+D:\Briareos\Source\ToolBox\ToolBox\bin\Debug\ToolBox.pdb
+D:\Briareos\Source\ToolBox\ToolBox\obj\Debug\ToolBox.csprojAssemblyReference.cache
+D:\Briareos\Source\ToolBox\ToolBox\obj\Debug\ToolBox.csproj.CoreCompileInputs.cache
+D:\Briareos\Source\ToolBox\ToolBox\obj\Debug\ToolBox.dll
+D:\Briareos\Source\ToolBox\ToolBox\obj\Debug\ToolBox.pdb
+C:\Users\Student\Desktop\ToolBox\ToolBox\bin\Debug\ToolBox.dll
+C:\Users\Student\Desktop\ToolBox\ToolBox\bin\Debug\ToolBox.pdb
+C:\Users\Student\Desktop\ToolBox\ToolBox\obj\Debug\ToolBox.csprojAssemblyReference.cache
+C:\Users\Student\Desktop\ToolBox\ToolBox\obj\Debug\ToolBox.csproj.CoreCompileInputs.cache
+C:\Users\Student\Desktop\ToolBox\ToolBox\obj\Debug\ToolBox.dll
+C:\Users\Student\Desktop\ToolBox\ToolBox\obj\Debug\ToolBox.pdb
