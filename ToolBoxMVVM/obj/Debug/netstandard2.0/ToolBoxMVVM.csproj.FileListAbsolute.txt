@@ -1,0 +1,9 @@
+C:\Users\François\source\repos\WPFPokemon\ToolBoxMVVM\bin\Debug\netstandard2.0\ToolBoxMVVM.deps.json
+C:\Users\François\source\repos\WPFPokemon\ToolBoxMVVM\bin\Debug\netstandard2.0\ToolBoxMVVM.dll
+C:\Users\François\source\repos\WPFPokemon\ToolBoxMVVM\bin\Debug\netstandard2.0\ToolBoxMVVM.pdb
+C:\Users\François\source\repos\WPFPokemon\ToolBoxMVVM\obj\Debug\netstandard2.0\ToolBoxMVVM.csprojAssemblyReference.cache
+C:\Users\François\source\repos\WPFPokemon\ToolBoxMVVM\obj\Debug\netstandard2.0\ToolBoxMVVM.csproj.CoreCompileInputs.cache
+C:\Users\François\source\repos\WPFPokemon\ToolBoxMVVM\obj\Debug\netstandard2.0\ToolBoxMVVM.AssemblyInfoInputs.cache
+C:\Users\François\source\repos\WPFPokemon\ToolBoxMVVM\obj\Debug\netstandard2.0\ToolBoxMVVM.AssemblyInfo.cs
+C:\Users\François\source\repos\WPFPokemon\ToolBoxMVVM\obj\Debug\netstandard2.0\ToolBoxMVVM.dll
+C:\Users\François\source\repos\WPFPokemon\ToolBoxMVVM\obj\Debug\netstandard2.0\ToolBoxMVVM.pdb
